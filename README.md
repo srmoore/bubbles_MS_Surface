@@ -17,7 +17,7 @@ This project does require the `XNA SDK` as well as the `Surface SDK` (Although I
 # Documentation from final project write up
 What follows is the **Design** section from the final project write up. I've done a little bit of cleanup and formatting, but otherwise haven't really changed it since it was written up in 2009.
 
-##Design
+## Design
 XNA was chosen over WPF for this project. While WPF makes interface design easier and has built in
 'chrome' that provides a polished and unified look, it has several layers between the UI and the code
 making performance less than ideal. Utilizing XNA, all the graphics are drawn in 2D sprite form, and
@@ -37,7 +37,7 @@ event handlers were registered with `ContactTarget` which run in the background 
 The game is made up of 6 object types, `FluidSimulation`, `SimCell`, `Particle`, `Emitter`, `Effector`, and
 `GameState`.
 
-####FluidSimulation
+#### FluidSimulation
 
 The `FluidSimulation` object is the main functional portion of the
 game. It consists of a grid of `SimCell`s which make up the
